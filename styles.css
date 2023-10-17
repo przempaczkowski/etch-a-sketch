@@ -66,3 +66,17 @@ button:not([disabled]):hover {
 .change {
     background-color: black;
   }
+
+@media screen and (max-width: 400px) {
+    .box {
+        width: 5%; /* Adjust the box size for smaller screens */
+        height: 5%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .box {
+        width: 2rem; /* Default box size for larger screens */
+        height: 2rem;
+    }
+}

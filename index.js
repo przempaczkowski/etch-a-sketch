@@ -29,6 +29,12 @@ function createGrid() {
             box.classList.add('change');
         });
     });
+
+    boxes.forEach((box) => {
+        box.addEventListener('touchstart', function () {
+            box.classList.add('change');
+        });
+    });
 }
 
 createGrid();
