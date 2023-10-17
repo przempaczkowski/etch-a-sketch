@@ -5,8 +5,8 @@
 }
 #grid {
     display: flex;
-    width: 16rem;
-    height: 16rem;
+    width: 24rem;
+    height: 24rem;
     flex-wrap: wrap;
 }
 .change {
